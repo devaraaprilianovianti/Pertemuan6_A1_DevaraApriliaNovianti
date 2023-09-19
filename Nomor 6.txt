@@ -1,0 +1,13 @@
+A = {'a', 'b', 'c', 'd'}
+B = {'c', 'd', 'e'}
+C = set()
+
+result1 = A.difference(B)
+result2 = B.difference(A)
+result3 = A.difference(C)
+result4 = B.difference(C)
+
+print("A difference B =", result1)
+print("B difference A =", result2)
+print("A difference C =", result3)
+print("B difference C =", result4)

@@ -1,0 +1,14 @@
+A = {100, 7, 8}
+B = {200, 4, 5}
+C = {300, 2, 3}
+D = {100, 200, 300}
+
+result_A_intersection_D = A.intersection(D)
+result_B_intersection_D = B.intersection(D)
+result_C_intersection_D = C.intersection(D)
+result_A_B_C_D = A.intersection(B).intersection(C).intersection(D)
+
+print("A ∩ D =", result_A_intersection_D)
+print("B ∩ D =", result_B_intersection_D)
+print("C ∩ D =", result_C_intersection_D)
+print("A ∩ B ∩ C ∩ D =", result_A_B_C_D)

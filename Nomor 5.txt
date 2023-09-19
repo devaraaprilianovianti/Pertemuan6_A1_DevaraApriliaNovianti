@@ -1,0 +1,13 @@
+A = {'a', 'b', 'c', 'd'}
+B = {'c', 'd', 'e'}
+C = set()
+
+result1 = A.symmetric_difference(B)
+result2 = B.symmetric_difference(A)
+result3 = A.symmetric_difference(C)
+result4 = B.symmetric_difference(C)
+
+print("A symmetric difference B =", result1)
+print("B symmetric difference A =", result2)
+print("A symmetric difference C =", result3)
+print("B symmetric difference C =", result4)
